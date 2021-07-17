@@ -1,0 +1,13 @@
+.images-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.images__item {
+  width: calc(100% / 3);
+  height: 200px;
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
