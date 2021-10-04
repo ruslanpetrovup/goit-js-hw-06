@@ -5,4 +5,4 @@ const editValue = () => {
  spanEl.style.fontSize = `${inputEl.value}px`;   
 }
 
-inputEl.addEventListener('mouseover', editValue)
+inputEl.addEventListener('input', editValue)
